@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.hero-row {
+  min-height: 80vh;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px; 
+  object-fit: contain;
+}
+
+
+@media (max-width: 767.98px) {
+  .hero-row {
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .hero-img {
+    height: auto;
+    max-height: 300px;
+  }
+
+  .col-lg-7,
+  .col-lg-5 {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .btn {
+    margin-top: 1rem;
+  }
+
+  .text-end {
+    text-align: right !important;
+  }
+}

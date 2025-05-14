@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #000;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #222;
+  }
+  
+  .trainer-img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
+  
+  .trainer-name {
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  .trainer-info {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    margin-top: 1rem;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 767px) {
+    .trainer-info {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+    }
+  
+    .trainer-img {
+      max-width: 100%;
+      aspect-ratio: 3 / 4;
+    }
+  }
+  
